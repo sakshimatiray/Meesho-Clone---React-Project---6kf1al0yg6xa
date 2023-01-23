@@ -18,3 +18,5 @@ Apply the fontSize property to the textarea element.
 
 Demo video:-
 <video src="https://d3dyfaf3iutrxo.cloudfront.net/general/upload/e449406acecb4a1186ae9cc77a55933f.mp4" controls autoplay muted>
+hosted link netlify
+https://sprightly-banoffee-d6af81.netlify.app
