@@ -13,7 +13,7 @@ By default char limit should be 50.
 And the last input should be a slider input(with id ="fontSize-input") for taking the font size, default and min value should be 16px and max would be 32px.
 
 Apply the fontSize property to the textarea element.
-
+https://sprightly-banoffee-d6af81.netlify.app
 
 
 Demo video:-
