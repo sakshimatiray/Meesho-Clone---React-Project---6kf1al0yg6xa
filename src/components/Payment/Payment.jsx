@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { increaseStep } from "../../Redux/action";
 import styled from "styled-components";
-let data = ["1234 5678 1234 5678", "12/25", "123", "Harsh Gajera"];
+let data = ["1234 5678 1234 5678", "10/28", "123", "Sakshi Matiray"];
 function Payment() {
   let [inp, setInp] = React.useState(data);
   let [color, setColor] = React.useState("#06A759");
