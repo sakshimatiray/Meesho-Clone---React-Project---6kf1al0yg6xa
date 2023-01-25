@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 let Nav = styled.nav`
-  position: sticky;
+   position: sticky;
   top: 0px;z-index:1;
   #top {
     display: flex;
     align-items: center;
-    padding: 17px 2.8vw;
+    padding: 20px 2.8vw;
     background-color: white;
     color: #000;
     border-bottom: 1px solid #dfdfdf;
@@ -15,7 +15,7 @@ let Nav = styled.nav`
     #logo a{
       transform: translateY(-2px);
     }
-
+//  <-------------search field---------------->
     div {
       border: 1px solid #999;
       flex-grow: 1;

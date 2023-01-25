@@ -10,7 +10,6 @@ import StepLabel from "@mui/material/StepLabel";
 const steps = ["Cart", "Address", "Payment", "Summary"];
 
 export default function Checkout() {
-  // const [step, setStep] = React.useState(0)
   const step = useSelector((state) => state.step);
 
   return (

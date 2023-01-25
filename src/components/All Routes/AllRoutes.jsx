@@ -26,9 +26,7 @@ export default function AllRoutes() {
       <Route path="/product/:id" element={<Product />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/login" element={<Login />} />
-        <Route
-          path="/checkout/cart"
-          element={
+        <Route path="/checkout/cart" element={
             <>
               <Checkout />
               <Cart />

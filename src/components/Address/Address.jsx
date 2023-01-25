@@ -5,6 +5,7 @@ import { increaseStep } from "../../Redux/action";
 import PhoneIconOutlinedIcon from "@mui/icons-material/PhoneOutlined";
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 import "./address.css";
+// <-------array data default value -------->
 let data = [
   "Sakshi",
   987654321,
@@ -27,7 +28,7 @@ export default function Address() {
     window.scrollTo(0, 0);
   }, []);
   const changeHandler = (e) => {
-    let newInp = [...inp];
+    let newInp = [...inp]; //spread opretar
     let { id, value } = e.target;
     newInp[+id] = value;
     setInp(newInp);
@@ -119,11 +120,11 @@ export default function Address() {
           COD Charges<span>+ ₹0</span>
         </p>
         <p>
-          1st Order Discount<span>- ₹50</span>
+          1st Order Discount<span>+ ₹0</span>
         </p>
         <hr />
         <h2>
-          Order Total <span>₹{localStorage.getItem("total") - 50}</span>
+          Order Total <span>₹{localStorage.getItem("total")}</span>
         </h2>
       </div>
     </section>
